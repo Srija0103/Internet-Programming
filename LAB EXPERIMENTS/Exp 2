@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotel Booking</title>
+</head>
+<body>
+  <header>
+    <h1>Grand Stay Hotel</h1>
+    <nav>
+      <a href="#rooms">Rooms</a> |
+      <a href="#booking">Book</a> |
+      <a href="#account">My Account</a> |
+      <a href="#admin">Admin</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="search">
+      <h2>Find a Room</h2>
+      <form>
+        <input name="destination" placeholder="Destination" required>
+        <label>Check-in <input type="date" name="checkin" required></label>
+        <label>Check-out <input type="date" name="checkout" required></label>
+        <input type="number" name="guests" min="1" placeholder="Guests" required>
+        <button>Check Availability</button>
+      </form>
+    </section>
+
+    <section id="rooms">
+      <h2>Room Types</h2>
+      <article><h3>Standard</h3><p>₹3,000/night · Wi-Fi · 2 guests</p></article>
+      <article><h3>Deluxe</h3><p>₹5,000/night · Wi-Fi · 3 guests</p></article>
+      <article><h3>Family</h3><p>₹7,000/night · Wi-Fi · 4 guests</p></article>
+      <article><h3>Suite</h3><p>₹10,000/night · Wi-Fi · 4 guests</p></article>
+    </section>
+
+    <section id="booking">
+      <h2>Book a Room</h2>
+      <form>
+        <input name="name" placeholder="Full name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <select name="room">
+          <option>Standard</option><option>Deluxe</option>
+          <option>Family</option><option>Suite</option>
+        </select>
+        <input type="date" name="arrival" required>
+        <input type="date" name="departure" required>
+        <button>Book Room</button>
+      </form>
+    </section>
+
+    <section id="account">
+      <h2>Register / Login</h2>
+      <form>
+        <input name="name" placeholder="Name">
+        <input type="email" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="Password">
+        <button>Submit</button>
+      </form>
+      <h3>My Bookings</h3>
+      <p>Booking history and profile details appear here.</p>
+      <button>Change Booking</button>
+      <button>Cancel Booking</button>
+      <p>Changes and cancellations are allowed up to 3 days before arrival.</p>
+    </section>
+
+    <section id="admin">
+      <h2>Admin Panel</h2>
+      <form>
+        <input name="username" placeholder="Admin username">
+        <input type="password" name="password" placeholder="Password">
+        <button>Login</button>
+      </form>
+      <h3>Manage Rooms and Bookings</h3>
+      <form>
+        <select name="room">
+          <option>Standard</option><option>Deluxe</option>
+          <option>Family</option><option>Suite</option>
+        </select>
+        <input type="number" name="quantity" placeholder="Room quantity">
+        <input type="number" name="price" placeholder="Price per night">
+        <input name="bookingId" placeholder="Booking ID">
+        <button>Update Details</button>
+        <button type="reset">Cancel Booking</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>About Us</h2>
+      <p>Enjoy a comfortable stay with welcoming service and convenient amenities.</p>
+      <h2>Customer Questions</h2>
+      <details><summary>What time is check-in?</summary><p>Check-in starts at 2:00 PM.</p></details>
+      <details><summary>Can I cancel my booking?</summary><p>Cancel up to 3 days before arrival.</p></details>
+      <h2>Local Travel Guide</h2>
+      <p>Ask our front desk for nearby attractions and transport information.</p>
+      <h2>Privacy Policy</h2>
+      <p>Guest information is used to manage reservations and provide hotel services.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:info@grandstay.example">info@grandstay.example</a></p>
+      <form>
+        <input name="name" placeholder="Name">
+        <input type="email" name="email" placeholder="Email">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button>Send</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
