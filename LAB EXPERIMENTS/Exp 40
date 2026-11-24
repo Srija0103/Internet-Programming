@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Travel Blog</title></head>
+<body>
+  <h1>My Travel Blog</h1>
+  <nav>Destinations | Travel Guides | Food | About</nav>
+  <h2>Recent Adventures</h2>
+  <article><h3>Exploring the Mountains</h3><p>Travel story, photos, and useful tips.</p></article>
+  <h2>Destinations</h2><p>India · Europe · Southeast Asia</p>
+  <h2>Photo Gallery and Map</h2><p>Travel photos and visited locations.</p>
+  <h2>Comments</h2>
+  <form><input placeholder="Name"><textarea placeholder="Write a comment"></textarea><button>Post</button></form>
+  <h2>About the Traveler</h2><p>Biography and travel interests.</p>
+</body>
+</html>
