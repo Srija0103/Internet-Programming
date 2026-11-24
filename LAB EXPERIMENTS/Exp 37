@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>BookHaven</title></head>
+<body>
+  <h1>BookHaven</h1>
+  <nav>Home | Fiction | Non-fiction | Academic | About | Contact</nav>
+  <form><input type="search" placeholder="Search books"><button>Search</button></form>
+  <h2>Books</h2>
+  <p>Book title — Author — ₹500</p>
+  <button>Add to Cart</button>
+  <h2>Checkout</h2>
+  <form><input placeholder="Name"><input placeholder="Shipping address"><button>Place Order</button></form>
+  <p>Cart · FAQs · Privacy policy · Blog · Customer reviews</p>
+</body>
+</html>
