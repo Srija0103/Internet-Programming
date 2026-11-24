@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Beauty Appointment</title></head>
+<body>
+  <h1>Beauty Appointment Booking</h1>
+  <form>
+    <input placeholder="Parlour or stylist">
+    <select><option>Service</option><option>Haircut</option><option>Facial</option><option>Makeup</option></select>
+    <input type="date"><input type="time">
+    <button>Check Availability</button>
+  </form>
+  <form>
+    <input placeholder="Customer name"><input type="email" placeholder="Email">
+    <select><option>Payment</option><option>Full payment</option><option>Deposit</option></select>
+    <button>Book Appointment</button><button>Cancel</button>
+  </form>
+  <p>My appointments · Reschedule · History · Feedback</p>
+  <h2>Salon Admin</h2>
+  <p>Manage services, staff schedules, unavailable hours, bookings, and payments.</p>
+</body>
+</html>
