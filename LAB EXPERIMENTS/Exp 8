@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>MedCare Appointments</title></head>
+<body>
+  <h1>MedCare Hospital</h1>
+  <h2>Find a Doctor</h2>
+  <form>
+    <input placeholder="Hospital or location">
+    <select><option>Specialty</option><option>Cardiology</option><option>Dermatology</option></select>
+    <input type="date"><button>Search</button>
+  </form>
+  <p>Dr. A. Kumar — Cardiology — Available at 10:00 AM</p>
+  <form>
+    <input placeholder="Patient name"><input type="email" placeholder="Email">
+    <input type="datetime-local"><button>Book Appointment</button>
+    <button type="reset">Cancel</button>
+  </form>
+  <p>Patient account: Register / Login · Appointment history · Check-in · Reviews</p>
+  <h2>Hospital Admin</h2>
+  <p>Manage doctors, appointments, schedules, locations, and ratings.</p>
+</body>
+</html>
