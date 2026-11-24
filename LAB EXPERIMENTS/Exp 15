@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>EasyToll</title></head>
+<body>
+  <h1>EasyToll</h1>
+  <h2>User Account</h2>
+  <form>
+    <input placeholder="Name"><input type="email" placeholder="Email">
+    <input placeholder="Vehicle number">
+    <button>Register / Login</button>
+  </form>
+  <p>Wallet balance: ₹0 <button>Add Money</button></p>
+  <form>
+    <input placeholder="Toll route">
+    <button>Buy Toll Ticket</button><button>Apply or Renew Pass</button>
+  </form>
+  <p>Toll pass · QR code · Payment history</p>
+  <h2>Toll Gate</h2>
+  <form><input placeholder="Pass or ticket ID"><button>Verify</button></form>
+  <h2>Admin</h2>
+  <p>Manage users, tolls, pass approvals, and toll locations.</p>
+</body>
+</html>
