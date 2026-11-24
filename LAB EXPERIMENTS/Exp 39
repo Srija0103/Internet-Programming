@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Online Store</title></head>
+<body>
+  <h1>Online Store</h1>
+  <form><input type="search" placeholder="Search products">
+    <select><option>Category</option><option>Electronics</option><option>Clothing</option></select>
+    <button>Search</button></form>
+  <h2>Featured Products</h2><p>Product name — ₹1,000 — In stock</p>
+  <button>Add to Cart</button>
+  <h2>Cart and Checkout</h2>
+  <form><input placeholder="Quantity"><input placeholder="Shipping address"><button>Checkout</button></form>
+  <p>Order summary · Order confirmation · Track order · Login / Order history</p>
+</body>
+</html>
