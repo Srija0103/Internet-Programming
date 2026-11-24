@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>RentRide</title></head>
+<body>
+  <h1>RentRide</h1>
+  <h2>Find a Vehicle</h2>
+  <form>
+    <select><option>Vehicle type</option><option>Car</option><option>SUV</option><option>Truck</option></select>
+    <input placeholder="Location"><input type="date">
+    <button>Search</button>
+  </form>
+  <p>City Car — ₹2,000/day <button>Book Vehicle</button></p>
+  <h2>Booking Details</h2>
+  <form>
+    <input placeholder="Name"><input placeholder="Phone">
+    <input placeholder="Address"><button>Submit Booking</button>
+  </form>
+  <p>My profile · Booking status · Rental history</p>
+  <h2>Admin</h2>
+  <p>Add vehicles · Update prices · Approve bookings · Manage reservations</p>
+</body>
+</html>
