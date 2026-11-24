@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Blood Donor Management</title></head>
+<body>
+  <h1>Blood Donor Management</h1>
+  <h2>Find a Donor</h2>
+  <form>
+    <select><option>Blood group</option><option>A+</option><option>B+</option><option>O+</option><option>AB+</option></select>
+    <input placeholder="Location"><button>Search</button>
+  </form>
+  <h2>Donor Registration</h2>
+  <form>
+    <input placeholder="Name"><input type="email" placeholder="Email">
+    <input placeholder="Phone"><button>Register</button>
+  </form>
+  <h2>Hospital</h2>
+  <p>Register · Post blood bank details · Update blood group availability</p>
+</body>
+</html>
