@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>BlossomGifts</title></head>
+<body>
+  <h1>BlossomGifts</h1>
+  <nav>Flowers | Gift Baskets | Personalized Gifts</nav>
+  <form>
+    <input type="search" placeholder="Search gifts">
+    <select><option>Occasion</option><option>Birthday</option><option>Anniversary</option></select>
+    <button>Search</button>
+  </form>
+  <p>Rose Bouquet — ₹1,200 <button>Add to Cart</button></p>
+  <form>
+    <input type="date" aria-label="Delivery date">
+    <input placeholder="Delivery address">
+    <button>Place Order</button>
+  </form>
+  <p>Login / Register · Track order · Order history</p>
+  <h2>Admin</h2>
+  <p>Add products · Update prices · Remove products · View customer orders</p>
+</body>
+</html>
