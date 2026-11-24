@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Cake Ordering</title></head>
+<body>
+  <h1>Cake Ordering</h1>
+  <form>
+    <input placeholder="Search cakes">
+    <select><option>Category</option><option>Birthday</option><option>Wedding</option></select>
+    <select><option>Flavor</option><option>Chocolate</option><option>Vanilla</option></select>
+    <button>Search</button>
+  </form>
+  <p>Chocolate Cake — ₹800</p>
+  <form>
+    <select><option>Size</option><option>Small</option><option>Medium</option><option>Large</option></select>
+    <input placeholder="Cake message"><input placeholder="Delivery address">
+    <button>Add to Cart</button><button>Place Order</button>
+  </form>
+  <p>My orders · Track delivery · Login / Register</p>
+  <h2>Admin</h2>
+  <p>Manage cakes, prices, images, inventory, users, and orders.</p>
+</body>
+</html>
