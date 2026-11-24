@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Gourmet Haven</title></head>
+<body>
+  <h1>Gourmet Haven</h1>
+  <p>Welcome to a memorable dining experience.</p>
+  <h2>Menu</h2><p>Appetizers · Main courses · Desserts</p>
+  <p>Grilled vegetables — ₹450</p>
+  <h2>Reserve a Table</h2>
+  <form><input type="date"><input type="time"><input type="number" min="1" placeholder="Guests"><button>Reserve</button></form>
+  <h2>About Us</h2><p>Our restaurant, chef, and culinary team.</p>
+  <h2>Contact</h2><p>Address · Phone · Email · Special offers · Customer reviews</p>
+</body>
+</html>
