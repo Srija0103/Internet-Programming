@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>AgriMart</title></head>
+<body>
+  <h1>AgriMart</h1>
+  <form>
+    <input type="search" placeholder="Search farm products">
+    <select><option>Category</option><option>Seeds</option><option>Fertilizers</option><option>Tools</option></select>
+    <button>Search</button>
+  </form>
+  <p>Seeds — ₹500 <button>Add to Cart</button></p>
+  <h2>Order</h2>
+  <form>
+    <input placeholder="Shipping address">
+    <button>Place Order</button>
+  </form>
+  <p>My account · Wallet · Cart · Order and shipping status</p>
+  <h2>Farmer</h2>
+  <p>Register / Login · Add or update products · Manage orders and sales</p>
+</body>
+</html>
