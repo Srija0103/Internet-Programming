@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Bus Pass Portal</title></head>
+<body>
+  <h1>Bus Pass Portal</h1>
+  <form><input placeholder="Name"><input type="date" aria-label="Date of birth">
+    <input placeholder="School or workplace"><input type="email" placeholder="Email">
+    <select><option>Pass type</option><option>Student</option><option>Route</option></select>
+    <input type="file" accept="image/*"><button>Apply or Renew</button></form>
+  <p>Wallet · Bus e-ticket · Pass QR · Route and arrival information</p>
+  <h2>Conductor</h2><form><input placeholder="Pass or ticket ID"><button>Verify</button></form>
+  <h2>Admin</h2><p>Manage buses, routes, conductors, and pass approvals</p>
+</body>
+</html>
