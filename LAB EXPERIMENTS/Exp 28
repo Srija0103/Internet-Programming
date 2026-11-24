@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>ArtistryHub</title></head>
+<body>
+  <header><h1>ArtistryHub</h1><p>Artist Emily Harris</p></header>
+  <nav><a href="#about">About</a> | <a href="#portfolio">Portfolio</a> |
+       <a href="#works">Works</a> | <a href="#news">News</a> | <a href="#contact">Contact</a></nav>
+  <section id="about"><h2>About the Artist</h2><p>Biography and artistic journey.</p></section>
+  <section id="portfolio"><h2>Portfolio</h2>
+    <figure><img src="artwork.jpg" alt="Artwork by Emily Harris" width="250">
+      <figcaption>Artwork title and description</figcaption></figure>
+  </section>
+  <section id="works"><h2>Selected Works</h2><p>Artwork title — Release year</p></section>
+  <section id="news"><h2>News and Events</h2><p>Upcoming exhibitions and updates.</p></section>
+  <section><h2>Newsletter</h2><form><input type="email" placeholder="Email"><button>Subscribe</button></form></section>
+  <section id="contact"><h2>Contact</h2><form><input placeholder="Name"><textarea placeholder="Message"></textarea><button>Send</button></form></section>
+</body>
+</html>
