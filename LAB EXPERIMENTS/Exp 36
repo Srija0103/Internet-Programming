@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>EduConnect</title></head>
+<body>
+  <h1>EduConnect</h1>
+  <h2>Course Catalog</h2>
+  <p>Web Design · Mathematics · Science</p>
+  <button>Enroll</button>
+  <h2>Student Registration</h2>
+  <form><input placeholder="Name"><input type="email" placeholder="Email"><button>Register</button></form>
+  <h2>Teacher Registration</h2>
+  <form><input placeholder="Teacher name"><input placeholder="Subject"><button>Register</button></form>
+  <p>Live classes · Recorded lessons · Study materials · Quizzes · Assignments · Discussion forum</p>
+  <h2>Teacher Dashboard</h2><p>Manage courses, schedules, student progress, and feedback.</p>
+</body>
+</html>
