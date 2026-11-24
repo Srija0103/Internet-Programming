@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>ReNewMarket</title></head>
+<body>
+  <h1>ReNewMarket</h1>
+  <form>
+    <input type="search" placeholder="Search used items">
+    <select><option>Category</option><option>Electronics</option><option>Furniture</option><option>Clothing</option></select>
+    <button>Search</button>
+  </form>
+  <h2>Item Listing</h2>
+  <p>Used Laptop — ₹20,000 — <button>Contact Seller</button></p>
+  <h2>Sell an Item</h2>
+  <form>
+    <input placeholder="Item name"><input type="number" placeholder="Price">
+    <textarea placeholder="Description"></textarea>
+    <button>Post Listing</button>
+  </form>
+  <p>My orders · Favorites · Transaction status · Feedback</p>
+  <h2>Admin</h2>
+  <p>Manage users, categories, listings, and order delivery status.</p>
+</body>
+</html>
