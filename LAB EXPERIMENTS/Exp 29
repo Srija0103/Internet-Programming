@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Community Event</title></head>
+<body>
+  <header>
+    <h1>Creative Ideas Conference</h1>
+    <p>Talks and workshops for students and professionals</p>
+    <a href="#register">Register for the Event</a>
+  </header>
+  <section><h2>Speakers</h2>
+    <p><a href="#speaker1">Jordan Lee</a> · <a href="#speaker2">Avery Patel</a></p>
+    <p id="speaker1">Jordan Lee — Design speaker</p>
+    <p id="speaker2">Avery Patel — Technology speaker</p>
+  </section>
+  <section><h2>Purpose</h2><p>Share ideas, learn new skills, and meet people in the field.</p></section>
+  <section><h2>Venue and Schedule</h2><p>City Hall · 10:00 AM–4:00 PM</p></section>
+  <section id="register"><h2>Register</h2>
+    <form><input placeholder="Name"><input type="email" placeholder="Email"><button>Submit</button></form>
+  </section>
+</body>
+</html>
