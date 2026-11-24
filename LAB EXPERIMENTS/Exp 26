@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Traffic Challan</title></head>
+<body>
+  <h1>Traffic Squad</h1>
+  <h2>User Login / Register</h2>
+  <form>
+    <input placeholder="Vehicle number"><input type="password" placeholder="Password">
+    <button>Login</button>
+  </form>
+  <h2>View Challan</h2>
+  <form><input placeholder="Challan number"><button>Search</button></form>
+  <p>Fine details · Filed cases · Receipt</p>
+  <h2>Police</h2>
+  <form>
+    <input placeholder="Vehicle number"><input placeholder="Violation">
+    <input type="file" accept="image/*"><button>Create Case</button>
+  </form>
+  <p>Traffic rules · Live reports · <a href="#">Traffic map</a></p>
+  <h2>Admin</h2>
+  <p>Manage police accounts · View daily reports</p>
+</body>
+</html>
