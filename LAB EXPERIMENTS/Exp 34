@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>LearnWell Tuition Centre</title></head>
+<body>
+  <h1>LearnWell Tuition Centre</h1>
+  <h2>Announcements and Courses</h2>
+  <p>Class schedules · Events · Subjects · Duration · Fees</p>
+  <form><input placeholder="Student name"><input type="email" placeholder="Email">
+    <select><option>Choose subject</option><option>Mathematics</option><option>Science</option></select>
+    <button>Register</button></form>
+  <p>Online and offline classes · Student profile · Fee reports</p>
+  <h2>Maintenance Request</h2>
+  <form><textarea placeholder="Describe your request"></textarea><button>Submit</button></form>
+  <p>Admin and teacher login · Feedback · Contact</p>
+</body>
+</html>
