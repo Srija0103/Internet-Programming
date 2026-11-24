@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>VetCare</title></head>
+<body>
+  <h1>Online Veterinary Care</h1>
+  <h2>Farmer Login / Registration</h2>
+  <form>
+    <input placeholder="Name"><input type="email" placeholder="Email">
+    <input type="password" placeholder="Password"><button>Submit</button>
+  </form>
+  <h2>Ask a Veterinarian</h2>
+  <form>
+    <textarea placeholder="Describe the animal's symptoms"></textarea>
+    <input type="file" accept="image/*,audio/*,video/*">
+    <button>Send to Doctor</button>
+  </form>
+  <p>Doctor replies · News · Reports · Payment · Feedback</p>
+  <h2>Doctor</h2>
+  <p>View requests · Send responses · Manage clinic details and news</p>
+</body>
+</html>
