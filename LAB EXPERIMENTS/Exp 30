@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>IJSSE Journal</title></head>
+<body>
+  <h1>International Journal of Scientific and Social Excellence</h1>
+  <nav><a href="#about">About</a> | <a href="#authors">Authors</a> |
+       <a href="#reviewers">Reviewers</a> | <a href="#articles">Articles</a></nav>
+  <section id="about"><h2>About Journal</h2><p>Print ISSN: 2395-1443 · Online ISSN: 2395-1451</p></section>
+  <section><h2>Ethics and Editorial Board</h2><p>Publication ethics · Editors · Reviewer responsibilities</p></section>
+  <section id="authors"><h2>Authors</h2><p>Guidelines · Templates · Publication charges</p>
+    <form><input type="email" placeholder="Author email"><input type="file"><button>Submit Manuscript</button></form>
+  </section>
+  <section id="reviewers"><h2>Reviewers</h2><p>Reviewer registration · Login · Article assignments</p></section>
+  <section id="articles"><h2>Articles</h2><p>Current issue · Archives · Most viewed · Most cited</p></section>
+  <form><input type="email" placeholder="Subscribe to newsletter"><button>Subscribe</button></form>
+  <p><a href="mailto:editor@example.com">Contact Us</a></p>
+</body>
+</html>
