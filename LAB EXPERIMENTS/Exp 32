@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Ram Infotech</title></head>
+<body>
+  <h1>Ram Infotech</h1>
+  <h2>Laptop Store</h2>
+  <p>Laptop model · Specifications · Price · Stock status</p>
+  <button>Purchase Laptop</button>
+  <h2>Book a Repair</h2>
+  <form><input placeholder="Customer name"><input placeholder="Laptop model">
+    <textarea placeholder="Describe the issue"></textarea><button>Request Service</button></form>
+  <p>Track service · Rental agreement · About · FAQ · Contact</p>
+  <h2>Admin</h2><p>Login / Register · Manage sales, services, customers, and stock</p>
+</body>
+</html>
