@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Job Portal</title></head>
+<body>
+  <h1>Job Vacancy Portal</h1>
+  <form>
+    <input type="search" placeholder="Search jobs">
+    <input placeholder="Location">
+    <select><option>Category</option><option>IT</option><option>Sales</option></select>
+    <button>Find Jobs</button>
+  </form>
+  <h2>Vacancy</h2>
+  <p>Web Developer — Full-time — Apply by 30 June</p>
+  <form><input type="file" accept=".pdf,.doc,.docx"><button>Apply with Resume</button></form>
+  <p>Applicant: Register / Login · Saved jobs · Notifications</p>
+  <h2>Director</h2>
+  <p>Post vacancies · Review applications and resumes</p>
+  <h2>Admin</h2>
+  <p>Approve directors · View users and reports</p>
+</body>
+</html>
