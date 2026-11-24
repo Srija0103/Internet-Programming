@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Train Reservation</title></head>
+<body>
+  <h1>Train Reservation</h1>
+  <form>
+    <input placeholder="Origin station"><input placeholder="Destination station">
+    <input type="date">
+    <select><option>Class</option><option>First Class</option><option>Second Class</option></select>
+    <button>Search Trains</button>
+  </form>
+  <form>
+    <input placeholder="Passenger name"><input placeholder="PNR number">
+    <button>Book Ticket</button><button>Check PNR</button><button>Cancel Ticket</button>
+  </form>
+  <p>Booking status: Confirmed / RAC / Waiting List</p>
+  <h2>Admin</h2>
+  <p>Manage trains, seats, fares, payments, schedules, PNRs, and refunds.</p>
+</body>
+</html>
