@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>ComplainEase</title></head>
+<body>
+  <h1>ComplainEase</h1>
+  <h2>Submit a Complaint</h2>
+  <form>
+    <input placeholder="Name"><input type="email" placeholder="Email">
+    <select><option>Complaint category</option><option>Service</option><option>Product</option></select>
+    <textarea placeholder="Describe the issue"></textarea>
+    <input type="file"><input placeholder="Location">
+    <button>Submit Complaint</button>
+  </form>
+  <h2>Track Complaint</h2>
+  <form><input placeholder="Complaint ID"><button>Check Status</button></form>
+  <p>Complaint history · Feedback · Admin contact</p>
+  <h2>Officer</h2>
+  <p>View complaints · Update status · Upload proof of work</p>
+  <h2>Admin</h2>
+  <p>Manage accounts and officers · Create logins · View complaints</p>
+</body>
+</html>
