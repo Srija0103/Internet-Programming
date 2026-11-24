@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>KodaikanalEats</title></head>
+<body>
+  <h1>KodaikanalEats</h1>
+  <form><input placeholder="Restaurant or location">
+    <select><option>Cuisine</option><option>South Indian</option><option>Chinese</option></select>
+    <button>Search</button></form>
+  <h2>Restaurant</h2><p>Restaurant name · Menu · Reviews · Special offers</p>
+  <form><input type="date"><input type="time"><input type="number" min="1" placeholder="Guests">
+    <button>Book Table</button></form>
+  <h2>Admin</h2><p>Manage rooms, prices, availability, bookings, and customers</p>
+</body>
+</html>
