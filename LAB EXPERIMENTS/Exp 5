@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Flight Reservation</title></head>
+<body>
+  <h1>Flight Reservation</h1>
+  <form>
+    <input placeholder="From"><input placeholder="Destination">
+    <input type="date">
+    <select><option>Class</option><option>Economy</option><option>Business</option></select>
+    <button>Search Flights</button>
+  </form>
+  <form>
+    <input placeholder="Passenger name"><input placeholder="Seat">
+    <button>Book and Pay</button><button>Cancel Ticket</button>
+  </form>
+  <p>My tickets · Booking status · Print ticket · Feedback</p>
+  <h2>Admin</h2>
+  <p>Admin login · Forgot password · Manage flights and generate reports.</p>
+</body>
+</html>
