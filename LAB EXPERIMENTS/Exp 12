@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>InsureEasy</title></head>
+<body>
+  <h1>InsureEasy</h1>
+  <h2>Compare Policies</h2>
+  <form>
+    <select><option>Insurance type</option><option>Health</option><option>Auto</option><option>Home</option></select>
+    <button>Compare</button>
+  </form>
+  <p>Policy details · Premium · Coverage</p>
+  <h2>Customer Login</h2>
+  <form><input type="email" placeholder="Email"><input type="password" placeholder="Password"><button>Login</button></form>
+  <p>My policies · Pay premium · File a claim · Renewal reminders</p>
+  <h2>Agent</h2>
+  <p>Register · Manage customers and policies · Send payment reminders</p>
+  <h2>Admin</h2>
+  <p>Approve agents · View agent details · Manage users and policies</p>
+</body>
+</html>
