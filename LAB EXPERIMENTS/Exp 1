@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Library Portal</title>
+</head>
+<body>
+  <h1>College Library</h1>
+
+  <nav>
+    <a href="#books">Books</a> |
+    <a href="#student">Student</a> |
+    <a href="#admin">Librarian</a> |
+    <a href="#materials">Materials</a>
+  </nav>
+
+  <section id="books">
+    <h2>Search Books</h2>
+    <form>
+      <input type="search" name="search" placeholder="Title or author">
+      <button>Search</button>
+    </form>
+    <table border="1">
+      <tr><th>Title</th><th>Author</th><th>Status</th></tr>
+      <tr><td>Computer Networks</td><td>Tanenbaum</td><td>Available</td></tr>
+      <tr><td>Database Systems</td><td>Silberschatz</td><td>Issued</td></tr>
+    </table>
+  </section>
+
+  <section id="student">
+    <h2>Student Login / Registration</h2>
+    <form>
+      <input name="name" placeholder="Name">
+      <input type="email" name="email" placeholder="Email">
+      <input type="password" name="password" placeholder="Password">
+      <button>Submit</button>
+    </form>
+
+    <h3>Borrow History</h3>
+    <p>Book: Computer Networks | Issued: 01-11-2026 | Due: 15-11-2026</p>
+    <p>Fine: ₹0</p>
+
+    <h3>My Profile</h3>
+    <form>
+      <input name="studentId" placeholder="Student ID">
+      <input name="phone" placeholder="Phone">
+      <button>Update Profile</button>
+    </form>
+  </section>
+
+  <section id="materials">
+    <h2>Study Materials</h2>
+    <form>
+      <input name="year" placeholder="Academic year">
+      <select name="semester">
+        <option>Select semester</option>
+        <option>Semester 1</option>
+        <option>Semester 2</option>
+        <option>Semester 3</option>
+        <option>Semester 4</option>
+      </select>
+      <button>Search</button>
+    </form>
+    <p><a href="notes.pdf" download>Download course notes</a></p>
+  </section>
+
+  <section id="admin">
+    <h2>Librarian Login</h2>
+    <form>
+      <input name="username" placeholder="Username">
+      <input type="password" name="password" placeholder="Password">
+      <button>Login</button>
+    </form>
+
+    <h3>Manage Books</h3>
+    <form>
+      <input name="title" placeholder="Book title">
+      <input name="author" placeholder="Author">
+      <input name="isbn" placeholder="ISBN">
+      <button>Add / Update Book</button>
+      <button type="reset">Clear</button>
+    </form>
+
+    <h3>Issue or Return Book</h3>
+    <form>
+      <input name="bookId" placeholder="Book ID">
+      <input name="studentId" placeholder="Student ID">
+      <input type="date" name="date">
+      <button>Record Transaction</button>
+    </form>
+
+    <h3>Fine</h3>
+    <form>
+      <input name="studentId" placeholder="Student ID">
+      <input type="number" name="fine" placeholder="Fine amount">
+      <button>Save Fine</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Contact Library</h2>
+    <form>
+      <input name="name" placeholder="Name">
+      <input type="email" name="email" placeholder="Email">
+      <textarea name="message" placeholder="Message"></textarea>
+      <button>Send</button>
+    </form>
+  </section>
+</body>
+</html>
