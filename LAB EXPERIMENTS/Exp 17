@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>VoteOnline</title></head>
+<body>
+  <h1>VoteOnline</h1>
+  <h2>Voter Login</h2>
+  <form>
+    <input placeholder="Voter ID"><input placeholder="OTP">
+    <button>Verify</button>
+  </form>
+  <h2>Select a Candidate</h2>
+  <form>
+    <label><input type="radio" name="candidate"> Candidate A</label>
+    <label><input type="radio" name="candidate"> Candidate B</label>
+    <button>Submit Vote</button>
+  </form>
+  <p>Vote confirmation and election results</p>
+  <h2>Admin</h2>
+  <p>Manage elections, candidates, voter lists, wards, and results.</p>
+</body>
+</html>
