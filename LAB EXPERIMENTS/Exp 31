@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Ko-Matha Dairy Farm</title></head>
+<body>
+  <h1>Ko-Matha Dairy Farm</h1>
+  <nav><a href="#products">Products</a> | <a href="#farm">Farm</a> | <a href="#contact">Contact</a></nav>
+  <section id="products"><h2>Products</h2>
+    <p>Fresh Milk · Curd · Cova Sweet · Butter · Ghee</p>
+    <form><select><option>Choose product</option><option>Milk</option><option>Curd</option><option>Ghee</option></select>
+      <input type="number" min="1" placeholder="Quantity"><button>Order Online</button></form>
+  </section>
+  <section id="farm"><h2>About the Farm</h2><p>Farm practices, products, and quality information.</p></section>
+  <h2>Admin and Stock</h2><p>Login · Stock entry · Daily, monthly, and yearly reports</p>
+  <p>Customer orders · Vendor details · Cow records</p>
+  <section id="contact"><h2>Contact</h2><p>Email: farm@example.com</p></section>
+</body>
+</html>
