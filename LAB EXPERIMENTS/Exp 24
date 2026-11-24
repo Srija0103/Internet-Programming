@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Wanderlust Travels</title></head>
+<body>
+  <h1>Wanderlust Travels</h1>
+  <form>
+    <input placeholder="Destination">
+    <select><option>Travel service</option><option>Hotel</option><option>Flight</option><option>Car rental</option></select>
+    <input type="date"><button>Search</button>
+  </form>
+  <h2>Travel Options</h2>
+  <p>Hotel, food, and route details</p>
+  <form><input placeholder="Traveler name"><button>Book Accommodation</button></form>
+  <p>User: Register / Login · My bookings · Travel guides</p>
+  <h2>Admin</h2>
+  <p>Manage tourism, food, hotels, routes, and bookings</p>
+</body>
+</html>
