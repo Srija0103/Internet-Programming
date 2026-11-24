@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Roadside Assistance</title></head>
+<body>
+  <h1>Roadside Vehicle Assistance</h1>
+  <h2>Find a Mechanic</h2>
+  <form>
+    <input placeholder="Your location">
+    <input placeholder="Vehicle problem">
+    <button>Search Mechanics</button>
+  </form>
+  <p>Licensed mechanic — Nearby — <a href="#contact">Request help</a></p>
+  <h2>Mechanic</h2>
+  <form>
+    <input placeholder="Business name"><input placeholder="Service area">
+    <input placeholder="License number"><button>Register Business</button>
+  </form>
+  <p>User: Register / Login · Profile · Feedback</p>
+  <p>Admin: Review and approve mechanics</p>
+</body>
+</html>
