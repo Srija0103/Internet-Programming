@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Home Finder</title></head>
+<body>
+  <h1>Home Finder</h1>
+  <form>
+    <input placeholder="Location">
+    <select><option>Property type</option><option>House</option><option>Land</option><option>Commercial</option></select>
+    <input type="number" placeholder="Max budget">
+    <button>Search</button>
+  </form>
+  <h2>Property Listings</h2>
+  <p>House for Sale — 3 bedrooms — ₹50,00,000 — <a href="#contact">Contact Agent</a></p>
+  <p><a href="#login">Buyer Login / Register</a> · Saved searches · Favorites</p>
+  <h2>Agent Search</h2>
+  <form><input placeholder="Agent or company name"><button>Search</button></form>
+  <h2>Admin</h2>
+  <p>Manage properties, advertisements, agents, and visitor records.</p>
+</body>
+</html>
